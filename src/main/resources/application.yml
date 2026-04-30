@@ -43,7 +43,7 @@ qdrant:
 
 # Qianwen API Configuration
 qianwen:
-  api-key: ${QIANWEN_API_KEY:sk-7cd634dd9ae74193ab9c8d28d8909c23}
+  api-key: ${QIANWEN_API_KEY:your-api-key-here}
   chat-api-url: https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation
   embedding-api-url: https://dashscope.aliyuncs.com/api/v1/services/embeddings/text-embedding/text-embedding
   model: qwen-turbo
